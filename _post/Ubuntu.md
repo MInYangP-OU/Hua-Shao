@@ -96,6 +96,6 @@ AppImage
 ```
 
 ### 8. Terminal
-```
+[huahua_linux](./huahua_linux.txt)
 
-```
+[linux_probe](./linuxprobe.txt)
