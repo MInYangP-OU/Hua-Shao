@@ -19,5 +19,7 @@
 
 [冒泡排序](./_post/冒泡排序.md)
 
+[Ubuntu 20.04](./_post/Ubuntu.md)
+
 
 

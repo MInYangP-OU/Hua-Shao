@@ -1,0 +1,131 @@
+man man 
+/ ? n N q
+
+date "+%Y-%m-%d %H:%M:%S"
+ date -s "20170901 8:30:00"
+ date "+%j"
+ 
+ hardware resource manager + sudo
+ reboot
+ poweroff
+ 
+ wget命令用于在终端中下载网络文件，格式为“wget [参数] 下载地址”。
+ wget https://www.linuxprobe.com/docs/LinuxProbe.pdf
+ wget -r -p https://www.linuxprobe.com
+ 参数	作用
+-b	后台下载模式
+-P	下载到指定目录
+-t	最大尝试次数
+-c	断点续传
+-p	下载页面内所有资源，包括图片、视频等
+-r	递归下载
+
+ps aux
+
+top
+
+pidof wget -> pid number -> kill pid(kill all wget)
+
+ifconfig
+
+uname -a
+
+uptime fuzai < 1 < 5
+
+free -h neicun
+
+who 
+
+last命令用于查看所有系统的登录记录
+
+history
+history -c
+
+sosreport
+
+ls -ld
+
+cat -n
+
+more less
+
+head -n tail -n
+
+cat anaconda-ks.cfg | tr [a-z] [A-Z]
+cat aaa.txt | tr [a-z] [A-Z] > aa.txt
+
+wc
+参数	作用
+-l	只显示行数
+-w	只显示单词数
+-c	只显示字节数
+
+
+ diff --brief diff_A.txt diff_B.txx
+  diff -c diff_A.txt diff_B.txt
+  
+  
+  ls -l aaa.txt 
+  echo "hacker" >> aaa.txt 
+touch -d "2020-05-09 08:21" aaa.txt
+
+mkdir -p a/b/c
+
+mv
+
+rm -r -f
+
+dd if=/dev/cdrom of=RHEL-server-7.0-x86_64-LinuxProbe.Com.iso
+dd if=/dev/zero of=560_file count=1 bs=560M
+
+file my_echo
+
+.tar .tar.gz. .tar.bz2
+
+参数	作用
+-c	创建压缩文件
+-x	解开压缩文件
+
+-t	查看压缩包内有哪些文件
+
+-z	用Gzip压缩或解压
+-j	用bzip2压缩或解压
+
+-v	显示压缩或解压的过程
+-f	目标文件名 last source
+
+-p	保留原始的权限与属性
+-P	使用绝对路径来压缩
+-C	指定解压到的目录
+
+tar czvf etc.tar.gz /etc
+tar czvf note.tar.gz ./notebook/
+
+xz cz vf
+xj cj vf
+
+grep key search
+
+grep -n hanghao
+-v fanxuan
+
+find 
+find /etc -name "host*" -print
+ find / -perm -4000 -print
+ 
+ 
+ 数	作用
+-name	匹配名称
+-perm	匹配权限（mode为完全匹配，-mode为包含即可）
+-user	匹配所有者
+-group	匹配所有组
+-mtime -n +n	匹配修改内容的时间（-n指n天以内，+n指n天以前）
+-atime -n +n	匹配访问文件的时间（-n指n天以内，+n指n天以前）
+-ctime -n +n	匹配修改文件权限的时间（-n指n天以内，+n指n天以前）
+-nouser	匹配无所有者的文件
+-nogroup	匹配无所有组的文件
+-newer f1 !f2	匹配比文件f1新但比f2旧的文件
+--type b/d/c/p/l/f	匹配文件类型（后面的字幕字母依次表示块设备、目录、字符设备、管道、链接文件、文本文件）
+-size	匹配文件的大小（+50KB为查找超过50KB的文件，而-50KB为查找小于50KB的文件）
+-prune	忽略某个目录
+-exec …… {}\;	后面可跟用于进一步处理搜索结果的命令（下文会有演示）
