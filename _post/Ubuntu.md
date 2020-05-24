@@ -76,6 +76,9 @@ conda config --get channels
 $ conda env list
 $ conda create -n your_env_name python=3.6.7
 $ conda env list
+
+$ conda init bash
+# restart your shell
 $ source activate(deactivate) your_env_name
 
 https://blog.csdn.net/weixin_43840215/article/details/89599559
