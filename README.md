@@ -1,15 +1,6 @@
 # Hua-Shao
-简洁最美 --Tattoot
+## 2020
 
-[杂七杂八](./_post/杂七杂八.md)
+**六月**：[Ubuntu20.04开发环境配置](docs/Ubuntu20.04环境配置.md) | [MySQL8安装](docs/MySQL8安装.md) | [SQL语言](docs/SQL语言.md) | [基本数据结构理论](docs/基本数据结构理论.md):high_brightness:| [排序算法](docs/排序算法.md):high_brightness:
 
-[数据结构与算法](./_post/数据结构与算法.md)
-
-[数组，ArrayList和List](./_post/数组，ArrayList和List.md)
-
-[数组17题](./_post/数组17题.md)
-
-[Ubuntu 20.04](./_post/Ubuntu.md)
-
-[SQL语言](./_post/sql.md)
-
+**五月**：[数组17题](docs/数组17题.md) | [array, arrayList 和 List](docs/array, arrayList 和 List.md) | [线性表的实现](docs/线性表的实现.md) | [栈的实现](docs/栈的实现.md)

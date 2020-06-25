@@ -21,7 +21,9 @@ character-set-server=utf8
 default-storage-engine=INNODB
 ```
 
-cmd 管理员 bin
+cmd 管理员
+
+ bin/
 
 mysqld --initialize
 
